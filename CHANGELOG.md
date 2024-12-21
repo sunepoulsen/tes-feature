@@ -24,12 +24,17 @@ For release-dates, use date-format: YYYY-MM-DD
 ### Features
 
 - [TESFOUND-146](https://sunepoulsen.atlassian.net/browse/TESFOUND-146): Create new feature
-  Added new endpoint to register a new feature with this backend service.
+  
+  1. Added new endpoint to register a new feature with this backend service.
 
 ### Fixed
 
 ### Security
 
+- [TESFOUND-146](https://sunepoulsen.atlassian.net/browse/TESFOUND-146): Create new feature
+
+  1. Update dependencies to address vulnerabilities.
+  
 ### DevOps
 
 - [TESFOUND-146](https://sunepoulsen.atlassian.net/browse/TESFOUND-146): Create new feature
