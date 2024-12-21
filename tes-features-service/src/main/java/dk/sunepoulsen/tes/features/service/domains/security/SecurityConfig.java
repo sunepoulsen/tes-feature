@@ -19,7 +19,7 @@ public class SecurityConfig {
         MvcRequestMatcher.Builder mvcMatcherBuilder = new MvcRequestMatcher.Builder(introspector);
 
         http.authorizeHttpRequests(authorizationManagerRequestMatcherRegistry -> {
-            if (!testEndpointsEnabled) {
+            if (!Boolean.TRUE.equals(testEndpointsEnabled)) {
                 authorizationManagerRequestMatcherRegistry
                     .requestMatchers(mvcMatcherBuilder.pattern("/tests/**"))
                     .denyAll();
